@@ -77,7 +77,7 @@ PAYER_ALIASES = [
 ]
 # Setting rule (rule 5): HPT setting -> allowed substrings in TIC cms_baseline_schedule
 SETTING_RULES = {
-    "both":       ["_facility", "_nonfacility", "OPPS"],
+    "both":       ["_facility", "_nonfacility", "OPPS", "IPPS"],
     "inpatient":  ["IPPS"],
     "outpatient": ["_facility", "OPPS"],
 }
